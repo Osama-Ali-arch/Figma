@@ -1,0 +1,3198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body , html{
+    max-width: 1396px; 
+    height:auto; 
+    color: #fff; 
+    background: #482BE7;
+    z-index: -100;
+    opacity: 0.9;
+}
+
+.username{
+    position: absolute;
+    left: 65px;
+    /* right: 20%; */
+    top: 120px;
+    /* bottom: 61%; */
+    width: 295px;
+    height: 14px;
+    font-family: "DM Sans" , sans-serif;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.userwarning{
+    position: absolute;
+    left: 95px;
+    top:177px;
+
+    font-size: 12px;
+}
+
+.password-check{
+    position: absolute;
+    left: 500px;
+    top: 125px;
+    width: 300px;
+    line-height: 30px;
+    color: #EA3223;
+}
+
+.fa-dribbble , .fa-behance{
+    cursor: pointer;
+}
+
+button{
+    border-radius: 100px;
+}
+ 
+.news{
+    position: absolute;
+    /* display: none; */
+    left: 95px;
+    top: 100px;
+    font-size: 12px;
+    /* color: #000000 */
+    font-family: "DM Sans", sans-serif;
+}
+
+.warning-text{
+    position: absolute;
+    top:255px;
+    left: 95px;
+    font-size: 12px;
+}
+
+.warning{
+    position: absolute;
+    left: 95px;
+    top: 335px;
+    font-size: 12px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .password-toggle-icon{
+    position: absolute;
+    font-family: "FontAwesome";
+    left: 360px;
+    top: 295px;
+    z-index: 200;
+    color: black;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.img-fluid{
+    position: absolute;
+    width: 1404px;
+    height: 850px;
+    left: 0px;  
+    top: 0px;
+    z-index: -200;
+    opacity: 0.9;
+}
+
+.middle-fill{
+    position: absolute;
+    width: 230px;
+    height: 60px;
+    left: 585px ;
+    top: 627px;
+}
+
+.rectangle{
+    position: absolute;
+    /* width: 233px; */
+    /* height: 60px; */
+    background: #482BE7;
+    border-radius: 100px;
+    z-index: 100;
+}
+
+.signup{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 10;
+    justify-content: center;
+    margin: 17px 35px;
+}
+
+ .arrow{
+    /* Arrows */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    left: 115px;
+    top: 329px;
+    width: 1170px;
+    /* margin: -233px 115px; */
+}
+
+.fa-angle-right{
+    /* fa-angle-right */
+    font-family: 'FontAwesome';
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fa-angle-left{
+    /* fa-angle-left */
+    font-family: 'FontAwesome';
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+.text{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    width: 736px;
+    position: absolute;
+    left: 332px;
+    top: 253px;
+}
+
+.about{
+    /* width:736px; */
+    position: absolute;
+    top: 161px;
+    font-family: 'DM Sans';
+    /* font-style: normal; */
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    /* display: flex; */
+    margin: unset;
+    color: #FFFFFF;
+}
+
+.heading{
+    
+    width: 745px;
+    position: absolute;
+    top: 47px ;
+    /* left: 48px ; */
+    /* height: 86px; */
+    font-family: 'DM Sans';
+    /* font-style: normal;
+    font-weight: 700; */
+    font-size: 72px;
+    line-height: 86px;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    letter-spacing: -1px;
+    justify-content: center;
+    margin: unset;
+    color: #FFFFFF;
+}
+
+.start-up{
+    /* width: ; */
+    /* height: 32px; */
+    position: absolute;
+    left: 314px;
+    top: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    margin: unset;
+} 
+
+.header-menu{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    position: absolute;
+    width: 469px;
+    left: 466px;
+    top: 85px;
+}
+
+.Home{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.paginator{
+    position: absolute;
+    width: 91px;
+    /* height: 11px; */
+    left: 650px;
+    top: 550px;
+}
+.active, .c2:hover, .c3:hover ,.c4:hover, .c5:hover{
+    opacity: 1;
+  } 
+
+.dots{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 9%;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: "DM Sans",sans-serif;
+    font-style: normal;
+    /* margin: 85px 0px; */
+}
+
+ .c5{
+    /* fa-circle-o */
+    position: absolute;
+    left: 87%;
+    opacity: 0.3;
+}
+
+.c4{
+    /* fa-circle-o */
+    position: absolute;
+    left: 65%;
+    opacity: 0.3;
+}
+
+.c3{
+    /* fa-circle-o */
+    position: absolute;
+    left: 43%;
+    opacity: 0.3;
+}
+
+.c2{
+    /* fa-circle-o */
+    position: absolute;
+    left: 22%;
+    opacity: 0.3;
+}
+
+.Feature, .Pricing, .Blog {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.Page-2{
+    width: 1404px;
+    height: auto;
+    top: 845px;
+    position: relative;
+    left: -8px;
+}
+.img-waves{
+    width: 1404px;
+    height: auto;
+    position: absolute;
+    z-index: -200;
+}
+.content{
+    position: relative;
+}
+.Title{
+    width: 815px;
+    font-family: "DM Sans",sans-serif;
+    /* margin: 38px 294px; */
+    left: 293px;
+    top: 107px;
+    position: absolute;
+    text-align: center;
+}
+.free-sample{
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    width: 135px;
+    position: absolute;
+    left: 340px;
+}
+.demo-version{
+    font-size: 58px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    line-height: 70px;
+    position: absolute;
+    width: 815px;
+    top: 55px
+}
+.startup-frame-co{
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.7;
+    width: 775px;
+    position: absolute;
+    left: 20px;
+    top: 223px;
+}
+.Page-3{
+    width: 1404px;
+    height: auto;
+    top: 1265px;
+    position: relative;
+    left: -8px;
+}
+.img-Desert{
+    width: 1404px;
+    height: auto;
+    position: relative;
+    z-index: -200;
+    top: 126px;
+}
+.img-Laptop{
+    position: absolute;
+    top: 232px;
+}
+.Paginator{
+    position: absolute;
+    width: 91px;
+    height: 11px;
+    left: 1285px;
+    top: 495px;
+    transform: rotate(0deg);
+}
+.Dots{
+    /* Dots */
+    position: absolute;
+    left: 12%;
+    right: -12%;
+    top: 0%;
+    bottom: 9%;
+    transform: rotate(90deg);
+}
+
+.Screen-Effect{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    height: 449px;
+    z-index: 100;
+    top: 36%;
+
+}
+.Create-Something-new{
+    position: absolute;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+    width: 130%;
+    bottom: -24%;
+}
+.ne{
+    position: absolute;
+    bottom: -78.71%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.title{
+    position: absolute;
+    left: 36%;
+    right: 20%;
+    top: 21%;
+    bottom: 55%;
+}
+
+.Feature_1{
+    position: absolute;
+    left: 36%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 18%;
+    bottom: 9%;
+    font-family: "DM Sans" , sans-serif;
+}
+
+.Feature_2{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    width: 18%;
+    font-family: "DM Sans" , sans-serif;
+}
+
+.Form_Page{
+    width: 1404px;
+    height: auto;
+    top: 1391px;
+    position: relative;
+    left: -8px;
+}
+
+.Background-img{
+    width: 1404px;
+    height: auto;
+}
+
+.Form_title{
+    position: absolute;
+    left: 216px;
+    top: 216px;
+    width: 350px;
+}
+.Digital_problem{
+    font-family: "DM Sans ", sans-serif;
+    line-height: 52px;
+    font-size: 42px;
+    letter-spacing: -0.4px;
+    width: 115%;
+}
+.new-products{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.Signup{
+    position: absolute;
+    height: 26px;
+    left: 84.5px;
+    /* right: 37%; */
+    top: 25px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1E0E62;
+}
+.Signup:hover{
+    cursor: pointer;
+}
+
+.login{
+    position: absolute;
+    height: 26px;
+    left: 326.5px;
+    /* right: 21%; */
+    top: 25px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(21, 20, 57, 0.4);
+}
+.login:hover{
+    cursor: pointer;
+}
+.selector{
+    position: absolute;
+    left: 235px;
+    width: 235px;
+    top: 68px;
+    height: 3px;
+    background: #EBEAED;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.selecter{
+    position: absolute;
+    left: 0;
+    width: 235px;
+    top: 68px;
+    height: 3px;
+    background: #1E0E62;
+    border-radius: 0px 5px 5px 0px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+.Data{
+    position: absolute;
+    left: 65px;
+    /* right: 20%; */
+    top: 196px;
+    /* bottom: 61%; */
+    width: 295px;
+    height: 14px;
+
+    font-family: "DM Sans" , sans-serif;
+    padding: 20px;
+    border-radius: 100px;
+}
+.password{
+    position: absolute;
+    left: 65px;
+    /* right: 20%; */
+    top: 275px;
+    /* bottom: 50%; */
+    padding: 20px;
+    border-radius: 100px;
+    width: 295px;
+    height: 14px;
+}
+.confirm-warning{
+    position: absolute;
+    left: 95px;
+    top: 410px;
+    /* font-family: sans-serif; */
+    font-size: 12px;
+
+}
+.confirmpassword{
+    position: absolute;
+    left: 65px;
+    /* right: 20%; */
+    top: 350px;
+    /* bottom: 50%; */
+    padding: 20px;
+    border-radius: 100px;
+    font-family: "DM Sans", sans-serif;
+    width: 295px;
+    height: 14px;
+}
+
+.Sign-up-middle {
+    position: absolute;
+    left: 65px;
+    /* right: 20%; */
+    top: 450px;
+    /* bottom: 38%; */
+    width: 334px;
+    height: 60px;
+    background: #25DAC5;
+    color: #FFFFFF;
+}
+
+.Sign-up-middle:hover{
+    /* box-shadow: 0 0 10px rgba(45, 43, 43, 0.79);  */
+    box-shadow: 0 0 10px rgba(198, 10, 10, 0.79); 
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.Sign-up-rectangle{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #25DAC5;
+    border-radius: 100px;
+
+}
+.form-signup{
+    position: absolute;
+    width: 160px;
+    height: 26px;
+    left: 25%;
+    top: 27%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.divider{
+    position: absolute;
+    left: 65px;
+    /* right: 33%; */
+    top: 80%;
+    /* bottom: 34%; */
+    width: 334px;
+    height: 2px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    /* width: 24%; */
+    display: flex;
+    flex-direction: row;
+    color:#000000;
+}
+hr.solid{
+    width: 40%;
+}
+.twitter-middle{
+    position: absolute;
+    width: 334px;
+    height: 60px;
+    top:85%;
+    left: 65px;
+}
+.twitter-signup{
+    /* Sign Up */
+    position: absolute;
+    width: 138px;
+    height: 26px;
+    left: 29%;
+    top: 27%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.twitter-rectangle{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #1DA1F2;
+    border-radius: 100px;
+}
+
+.placeholder{
+    position: absolute;
+    left: 200px;
+    width: 800px;
+    height: 600px;
+    /* right: 15%; */
+    top: 13%;
+    /* bottom: 13%; */
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.Testimonial{
+    width: 1404px;
+    height: 800px;
+    top: 1391px;
+    position: relative;
+    background-color: #1E0E62;
+    left: -8px;
+    font-family: "DM Sans", sans-serif;
+    z-index: 50;
+}
+
+.Testimonial-title{
+    position: absolute;
+    left: 15%;
+    right: 58%;
+    top: 12%;
+    bottom: 81%;
+}
+.Testimonial-1{
+    position: absolute;
+    width: 470px;
+    height: 237px;
+    left: 215px;
+    top: 192px;
+}
+.text-1{
+    position: absolute;
+    left: 28%;
+    right: 5%;
+    top: 14%;
+    bottom: 9%;
+}
+
+.name-1{
+    position: absolute;
+    top: 79%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.userpic-1{
+    position: absolute;
+    left: 7%;
+    right: 77%;
+    top: 15%;
+    bottom: 55%;
+    border-radius: 10px;
+}
+
+.placeholder-1{
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.Testimonial-2{
+    position: absolute;
+    width: 470px;
+    height: 237px;
+    left: 715px;
+    top: 192px;
+}
+.text-2{
+    position: absolute;
+    left: 28%;
+    right: 5%;
+    top: 14%;
+    bottom: 9%;
+}
+
+.name-2{
+    position: absolute;
+    top: 79%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.userpic-2{
+    position: absolute;
+    left: 7%;
+    right: 77%;
+    top: 15%;
+    bottom: 55%;
+    border-radius: 10px;
+}
+
+.placeholder-2{
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.Testimonial-3{
+    position: absolute;
+    width: 470px;
+    height: 237px;
+    left: 215px;
+    top: 459px;
+}
+.text-3{
+    position: absolute;
+    left: 28%;
+    right: 6%;
+    top: 14.77%;
+    bottom: 9.7%;
+}
+
+.name-3{
+    position: absolute;
+    top: 79%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.userpic-3{
+    position: absolute;
+    left: 7%;
+    right: 77%;
+    top: 15%;
+    bottom: 55%;
+    border-radius: 10px;
+}
+
+.placeholder-3{
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.Testimonial-4{
+    position: absolute;
+    width: 470px;
+    height: 237px;
+    left: 715px;
+    top: 459px;
+}
+.text-4{
+    position: absolute;
+    left: 28%;
+    right: 5%;
+    top: 14%;
+    bottom: 9%;
+}
+
+.name-4{
+    position: absolute;
+    top: 79%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.userpic-4{
+    position: absolute;
+    left: 7%;
+    right: 77%;
+    top: 15%;
+    bottom: 55%;
+    border-radius: 10px;
+}
+.placeholder-4{
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.Call-for-Action{
+    width: 1404px;
+    height: auto;
+    top: 1269px;
+    position: relative;
+    left: -8px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.background-4{
+    width: 1404px;
+    height: auto;
+    position: relative;
+    z-index: -200;
+    top: 126px;
+}
+
+.Action-Title{
+    position: absolute;
+    left: 315px;
+    /* right: 22%; */
+    top: 134px;
+    /* bottom: 37%; */
+    width: 770px;
+}
+
+.Title-header{
+    /* position: absolute;
+    left: 22%;
+    width: 66%;
+    top: 16%; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.Title-Para{
+    /* Bootstrap is a widel */
+    /* position: absolute;
+    left: 18%;
+    width: 73%;
+    top: 101%; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.youtube-icon{
+    position: absolute;
+    left: 38%;
+    top: 92%;
+    width: 5%;
+    height: 11%;
+
+}
+.red-dot{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #EA3223;
+    border-radius: 100px;
+}
+.fa-sloid , .fa-play{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 38%;
+    top: 38%;
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.big-icon{
+    position: absolute;
+    left: 46%;
+    top: 92%;
+    width: 16%;
+    height: 11%;
+}
+.big-rectangle{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #25DAC5;
+    border-radius: 100px;
+}
+
+.big-signup{
+    /* Sign Up */
+    position: absolute;
+    width: 111px;
+    height: 26px;
+    left: 25%;
+    top: 30%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Showcase{
+    width: 1404px;
+    height: 1130px;
+    top: 1394px;
+    position: relative;
+    left: -8px;
+    background-color: #2F1893;
+}
+.showcase-title{
+    position: absolute;
+    left: 215px;
+    /* right: 15%; */
+    top: 100px;
+    /* bottom: 86%; */
+}
+.last-work{
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+
+.white-outline{
+    position: absolute;
+    left: 590px;
+    top: 50px;
+    width: 170px;
+}
+.white-rectangle{
+    box-sizing: border-box;
+    position: absolute;
+    left: 208px;
+    /* right: 0%; */
+    /* top: 71%; */
+    /* bottom: -50%; */
+    opacity: 0.3;
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+    width: 170px;
+    height: 50px;
+}
+.white-signup{
+    position: absolute;
+    width: 122px;
+    height: 26px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    left: 237px;
+    top: 13px;
+}
+.works{
+    /* Works */
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 18%;
+    bottom: 9%;
+}
+.work-1{
+    /* Work 1 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 49%;
+}
+.photo-1{
+    /* Photo */
+    position: absolute;
+    left: 15%;
+    right: 51%;
+    top: 18%;
+    bottom: 57%;
+}
+.description-1{
+    /* Description */
+    position: absolute;
+    top: 93%;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 468px
+
+}
+.dname-1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+.pname-1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.work-2{
+    /* Work 2 */
+    position: absolute;
+    left: 51%;
+    top: 0;
+    bottom: 49%;
+}
+
+.photo-2{
+    position: absolute;
+    left: 51%;
+    right: 15%;
+    top: 18%;
+    bottom: 57%;
+    border-radius: 10px;
+}
+.description-2{
+    /* Description */
+    position: absolute;
+    top: 93%;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 469px;
+}
+.dname-2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+.pname-2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.work-3{
+    /* Work 3 */
+    position: absolute;
+    left: 0;
+    top: 57%;
+}
+
+.photo-3{
+    position: absolute;
+    left: 15%;
+    right: 51%;
+    top: 57%;
+    bottom: 17%;
+    border-radius: 10px;
+}
+.description-3{
+    position: absolute;
+    top: 281px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 468px;
+}
+.dname-3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+.pname-3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.work-4{
+    position: absolute;
+    left: 51%;
+    top: 57%;
+}
+
+.photo-4{
+    position: absolute;
+    left: 51%;
+    right: 15%;
+    top: 57%;
+    bottom: 17%;
+    border-radius: 10px;
+}
+.description-4{
+    /* Description */
+    position: absolute;
+    top: 281px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 469px;
+}
+.dname-4{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+.pname-4{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Team{
+    width: 1404px;
+    height: 992px;
+    top: 1396px;
+    position: relative;
+    background-color: #2F1893;
+    left: -8px;
+    font-family: "DM Sans", sans-serif;
+    /* z-index: 50; */
+}
+
+.team-title{
+    position: absolute;
+    width: 754px;
+    left: 7%;
+    top: 12%;
+}
+
+.Crew{
+    font-family: "DM Sans" , sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    font-weight: bold;
+}
+
+.imp-para{
+    font-size: 22px;
+    /* font-size: medium; */
+    line-height: 32px;
+}
+
+.member-1{
+    /* Member 1 */
+    position: absolute;
+    left: 8%;
+    right: 81%;
+    top: 35%;
+    bottom: 40%;
+}
+
+.userpic{
+    position: absolute;
+    left: 8%;
+    right: 84%;
+    top: 35%;
+    bottom: 54%;
+}
+
+.name{
+    position: absolute;
+    left: 8%;
+    top: 79%;
+    font-size: 22px;
+    line-height: 32px;
+    width: 145px;
+}
+
+.designation{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.socials{
+    position: absolute;
+    top: 105%;
+    left: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 154px
+}
+
+.member-2{
+    position: absolute;
+    left: 28%;
+    top: 35%;
+    bottom: 40%;
+}
+
+.userpic-2{
+    position: absolute;
+    left: 8%;
+    right: 84%;
+    top: 35%;
+    bottom: 54%;
+}
+
+.Name-2 {
+    position: absolute;
+    left: 8%;
+    top: 79%;
+    font-size: 22px;
+    line-height: 32px;
+    width: 155px;
+}
+
+.designation-2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.socials-2{
+    position: absolute;
+    top: 105%;
+    left: 8%;
+    width: 154px;
+    letter-spacing: 17px;
+}
+
+.member-3{
+    position: absolute;
+    left: 48%;
+    top: 35%;
+    bottom: 40%;
+}
+
+.userpic-3{
+    position: absolute;
+    left: 8%;
+    right: 84%;
+    top: 35%;
+    bottom: 54%;
+}
+
+.Name-3 {
+    position: absolute;
+    left: 8%;
+    top: 79%;
+    font-size: 22px;
+    line-height: 32px;
+    width: 165px;
+}
+
+.designation-3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.socials-3{
+    position: absolute;
+    top: 105%;
+    left: 8%;
+    width: 154px;
+    letter-spacing: 17px;
+}
+
+.member-4{
+    position: absolute;
+    left: 8%;
+    right: 81%;
+    top: 65%;
+    bottom: 10%;
+}
+
+.userpic-4{
+    position: absolute;
+    left: 8%;
+    right: 84%;
+    top: 35%;
+    bottom: 54%;
+}
+
+.Name-4 {
+    position: absolute;
+    left: 8%;
+    top: 79%;
+    font-size: 22px;
+    line-height: 32px;
+    width: 165px;
+}
+
+.designation-4 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.socials-4{
+    position: absolute;
+    top: 105%;
+    left: 8%;
+    width: 154px;
+    letter-spacing: 17px;
+}
+
+.member-5{
+    position: absolute;
+    left: 28%;
+    /* right: 81%; */
+    top: 65%;
+    bottom: 10%;
+}
+
+.userpic-5{
+    position: absolute;
+    left: 8%;
+    right: 84%;
+    top: 35%;
+    bottom: 54%;
+}
+
+.Name-5 {
+    position: absolute;
+    left: 8%;
+    top: 79%;
+    font-size: 22px;
+    line-height: 32px;
+    width: 196px;
+}
+
+.designation-5 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.socials-5{
+    position: absolute;
+    top: 105%;
+    left: 8%;
+    width: 154px;
+    letter-spacing: 17px;
+}
+
+.contact{
+    width: 1404px;
+    height: auto;
+    top: 1401px;
+    position: relative;
+    left: -8px;
+}
+
+.contact-img{
+    width: 1404px;
+    height: auto;
+}
+
+.contact-title{
+    position: absolute;
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    width: 426px;
+    left: 215px;
+    top:37px;
+}
+
+.cpara{
+    font-size: 22px ;
+    line-height: 32px;
+    width: 393px;
+}
+
+.contacts{
+    position: absolute;
+    top: 411px;
+    left: 215px;
+    width: 283px;
+    line-height: 26pt;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
+.phone{
+    width: 241px;
+    left: 15px;
+}
+.email{
+    width: 261px;
+}
+.address{
+    width: 282px;
+}
+
+.Text{
+    left: 47px;
+    position: relative;
+    top: -37px ;
+}
+
+.your-name{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.yourname{
+    position: absolute;
+    left: 30px;
+    /* right: 20%; */
+    top: 70px;
+    /* bottom: 61%; */
+    font-family: "DM Sans", sans-serif;
+    padding: 20px;
+    border-radius: 100px;
+    /* width: 200px; */
+}
+
+.budget{
+    position: absolute;
+    left: 246px;
+    top: 40px;
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.amount{
+    position: absolute;
+    left: 236px;
+    /* right: 20%; */
+    top: 70px;
+    /* bottom: 61%; */
+    font-family: "DM Sans", sans-serif;
+    padding: 20px;
+    border-radius: 100px;
+    /* width: 200px; */
+}
+
+.field{
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.email-field{
+    position: absolute;
+    left: 30px;
+    /* right: 20%; */
+    top: 180px;
+    /* bottom: 61%; */
+    font-family: "DM Sans" , sans-serif;
+    padding: 20px;
+    border-radius: 100px;
+    width: 350px;
+    height: 17px;
+}
+
+.message{
+    position: absolute;
+    left: 40px;
+    top: 260px;
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.your-msg{
+    width: 350px;
+    height: 110px;
+    position: absolute;
+    left: 40px;
+    top: 295px;
+    font-family: "DM Sans" , sans-serif;
+    border-radius: 10px;
+    padding: 6px 20px;
+}
+
+.checkbox-text{
+    position: absolute;
+    left: 80px;
+    top: 480px;
+    color: #000000;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.check{
+    background-color:#25DAC5;
+    position: absolute;
+    left: 40px;
+    top:480px
+}
+
+.send-icon{
+    position: absolute;
+    width: 120px;
+    height: 51px;
+    top:465px;
+    left: 310px;
+}
+.send-rectangle{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #25DAC5;
+    border-radius: 100px;
+}
+
+.send-signup{
+    position: absolute;
+    left: 29%;
+    top: 27%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Pricing-Table{
+    width: 1404px;
+    height: auto;
+    top: 1401px;
+    position: relative;
+    left: -8px;
+}
+
+.price-img{
+    width: 1404px;
+    height: auto;
+}
+
+.price-title{
+    position: absolute;
+    font-size:42px ;
+    font-family: "DM Sans", sans-serif;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    left: 409px;
+    top: 100px;
+    width: 586px;
+
+}
+
+.price-para{
+    position: absolute;
+    font-size: 22px;
+    line-height: 32px;
+    top: 82px;
+}
+
+.price-1{
+    position: absolute;
+    left: 116px;
+    /* right: 15%; */
+    top: 300px;
+    bottom: 13%;
+    /* background: #FFFFFF; */
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    width: 370px;
+    height: 730px;
+    /* opacity: 0.5; */
+}
+
+.Ptext-1{
+    width: 134px;
+    position: absolute;
+    font-size: 22px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 32px;
+    left: 69px;
+    top: 64px;
+    opacity: 1;
+}
+.pt-amount{
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+
+.dollar-sign{
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 22px;
+    position: absolute;
+    left: 124px;
+    top: 40px;
+}
+.Price-1-Features{
+    position: absolute;
+    width: 186px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "DM Sans", sans-serif ;
+    left: 44px;
+    top: 233px;
+}
+.check-icons{
+    display: flex;
+    position: absolute;
+    /* left: 44px;
+    top: 237px; */
+    flex-direction: column;
+}
+.tick-1{
+    position: absolute;
+    top: 4px;
+}
+.tick-2{
+    position: absolute;
+    top: 40px;
+}
+.tick-3{
+    position: absolute;
+    top: 76px;
+}
+.tick-4{
+    position: absolute;
+    top: 112px;
+}
+
+.checked-text{
+    position: relative;
+    top: -5px;
+    left: 38px;
+    line-height: 35px;
+}
+.unchecked-text{
+    position: absolute;
+    opacity: 0.5;
+    left: 38px;
+    line-height: 35px;
+}
+
+.price-icon{
+    position: absolute;
+    width: 230px;
+    height: 51px;
+    top: 614px;
+    left: 70px;
+}
+
+.price-rectangle{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    /* background: #25DAC5; */
+    border-radius: 100px;
+    border: 2px solid #FFFFFF;
+    opacity: 0.5;
+}
+
+.price-signup{
+    position: absolute;
+    left: 29%;
+    top: 27%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price-2{
+    position: absolute;
+    left: 516px;
+    /* right: 15%; */
+    top: 300px;
+    bottom: 13%;
+    /* background: #FFFFFF; */
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    width: 370px;
+    height: 730px;
+    /* opacity: 0.5; */
+}
+
+.tick-5{
+    position: absolute;
+    top: 148px;
+}
+.tick-6{
+    position: absolute;
+    top: 184px;
+}
+.tick-7{
+    position: absolute;
+    top: 220px;
+}
+
+.price-3{
+    position: absolute;
+    left: 916px;
+    /* right: 15%; */
+    top: 300px;
+    bottom: 13%;
+    /* background: #FFFFFF; */
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    width: 370px;
+    height: 730px;
+    /* opacity: 0.5; */
+}
+
+.tick-8{
+    position: absolute;
+    top: 259px;
+}
+.tick-9{
+    position: absolute;
+    top: 292px;
+}
+.tick-10{
+    position: absolute;
+    top: 328px;
+}
+
+.dollar-sign-2{
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 22px;
+    position: absolute;
+    left: 140px;
+    top: 40px;
+}
+.dollar-sign-3{
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 22px;
+    position: absolute;
+    left: 160px;
+    top: 40px;
+}
+
+.footer{
+    width: 1404px;
+    height: 210px;
+    top: 1401px;
+    position: relative;
+    background-color: #2F1893;
+    left: -8px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.Copywrites{
+    position: absolute;
+    width: 1170px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "DM Sans", sans-serif;
+    left: 115px;
+    top: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Logos{
+    /* position: absolute; */
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: -0.29px;
+}
+
+.footer-socials{
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.Divider{
+    position: absolute;
+    left: 115px;
+    right: 33%;
+    /* top: 120px; */
+    bottom: 34%;
+    mix-blend-mode: normal;
+    /* opacity: 0.5; */
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    /* color: #000000; */
+    opacity: 0.3;
+    border: 2px solid #FFFFFF;
+    width: 1170px;
+}
+
+.Menu{
+    position: absolute;
+    width: 1170px;
+    left: 115px;
+    top: 150px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "DM Sans", sans-serif;
+}
+.menu-items{
+    list-style: none;
+}
+
+.tour{
+    /* Tour */
+    position: absolute;
+    left: 0%;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.Features{
+    /* Features */
+    position: absolute;
+    left: 5%;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.Pricing-plan{
+    /* Pricing Plans */
+    position: absolute;
+    left: 13%;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.Our-works{
+    /* Our Works */
+    position: absolute;
+    left: 23%;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.Brands{
+    /* Brands */
+    position: absolute;
+    height: 26px;
+    left: 32%;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.menu-contacts{
+    /* Contacts */
+    position: absolute;
+    height: 26px;
+    left: 39%;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.menu-copy{
+    /* © 2017 Designmodo. A */
+    position: absolute;
+    height: 26px;
+    left: 75%;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.privacy{
+    position: absolute;
+    left: 875px;
+}
+
+.terms{
+    position: absolute;
+    left: 993px;
+}
+
+@media only screen and (max-width: 1200px) {
+    body{
+        max-width: 1200px;
+    }
+
+    .header-menu{
+        left: 330px;
+    }
+    
+    .start-up{
+        left: 320px;
+    }
+
+    .Page-2{
+        width: 1200px;
+        height: auto;
+        /* margin: 225px 0px */
+        top: 725px;
+    }
+    .img-waves{
+        width: 1200px;
+        height: auto;
+    }
+    .Title{
+        width: 815px;
+        /* margin: 0px 210px; */
+        position: absolute;
+        left: 210px;
+        top: 55px;
+
+    }
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+    .middle-fill {
+        /* margin: 550px 692px ; */
+        position: absolute;
+        top: 550px;
+        left: 495px;
+    }
+    .text{
+        position: absolute;
+        top: 210px;
+        left: 215px;
+    }
+
+    .arrow{
+        width: 950px;
+    }
+    .paginator{
+        position: absolute;
+        top: 300px;
+        left: 340px;
+
+    }
+    .about {
+        width: 736px;
+        /* margin: 20px auto; */
+        /* left: -56px; */
+    }
+    .heading {
+        /* font-size: 60px; */
+    }
+    .nav-items {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .Page-3{
+        width: 1200px;
+        height: auto;
+        top: 1072px;
+    }
+
+    .img-Desert{
+        width: 1200px;
+        height: auto;
+    }
+
+    .img-Laptop{
+        top: 174px;
+    }
+
+    .Screen{
+        position: absolute;
+        top: -16px;
+    }
+
+    .Form_Page{
+        width: 1200px;
+        top: 1200px;
+    }
+
+    .Background-img{
+        width: 1200px;
+    }
+    .Form_title{
+        top: 115px;
+        left: 160px;
+    }
+
+    .twitter-middle{
+        width: 290px;
+    }
+
+    .Testimonial{
+        width: 1200px;
+        top: 1200px;
+    }
+
+    .test-container{
+        width: 950px;
+        position: absolute;
+        left: -98px;
+    }
+
+    .Testimonial-title{
+        left: 120px;
+    }
+
+    .Call-for-Action{
+        width: 1200px;
+        top: 1080px;
+    }
+
+    .background-4{
+        width: 1200px;
+    }
+
+    .Paginator{
+        left: 1070px;
+    }
+    
+    .Action-Title{
+        left: 215px;
+    }
+
+    .Showcase{
+        width: 1200px;
+        top: 1205px;
+    }
+    .works{
+        width: 1000px;
+    }
+    .work-1{
+        left: -6%;
+        top: 2%;
+    }
+    .work-2{
+        top: 2%;
+        left: 45%;
+    }
+    .work-3{
+        left: -6%;
+        /* top: 30%; */
+    }
+    .work-4{
+        left: 45%;
+    }
+
+    .showcase-title{
+        left: 117px;
+    }
+
+    .Team{
+        width: 1200px;
+        top: 1210px;
+    }
+
+    .contact{
+        width: 1200px;
+        top: 1215px;
+    }
+
+    .contact-img{
+        width: 1200px;
+    }
+
+    .contact-title{
+        left: 117px;
+    }
+
+    .contacts{
+        left: 117px;
+        top: 350px;
+    }
+
+    .placeholder{
+        width: 470px;
+        height: 570px;
+        top: 50px;
+    }
+
+    .Pricing-Table{
+        width: 1200px;
+        top: 1215px;
+    }
+
+    .price-img{
+        width: 1200px;
+    }
+
+    .price-title{
+        left: 320px;
+        top: 50px;
+    }
+
+    .price-1{
+        left: 25px;
+        top: 215px;
+    }
+    .price-2{
+        left: 413px;
+        top: 215px;
+    }
+    .price-3{
+        left: 800px;
+        top: 215px;
+    }
+
+    .footer{
+        width: 1200px;
+        top: 1216px;
+    }    
+
+    .Copywrites{
+        width: 955px;
+    }
+    .privacy{
+        left: 655px;
+    }
+    .terms{
+        left: 773px;
+    }
+    .Divider{
+        width: 955px;
+    }
+    .Menu{
+        width: 955px;
+    }
+    .menu-copy{
+        left: 69%;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .Page-1{
+        width: 992px;
+    }
+    .text{
+        top: 127px;
+    }
+
+    .rectangle{
+        top: -70px;
+    }
+    
+    .Page-2{
+        width: 992px;
+        /* height: auto; */
+        /* margin: 99px 0px; */
+        top: 605px;
+    }
+    .demo-version{
+        font-size: 40px;
+        /* line-height: 50px; */
+    }
+    .startup-frame-co{
+        /* font-size: 20px; */
+        /* width: 100%; */
+        line-height: 20px;
+        top: 165px;
+    }
+    .paginator{
+        /* margin: -32px; */
+        left: 225px;
+        top: 280px;
+    }
+    .about {
+        /* font-size: 18px; */
+        /* margin: 24px 200px; */
+        width: 655px;
+        left: -60px;
+    }
+    
+    .arrow{
+        width: 720px;
+        top: 250px;
+    }
+
+    .Page-3{
+        width: 992px;
+        top: 865px ;
+    }
+
+    .img-Desert{
+        width: 992px;
+    }
+
+    .Paginator{
+        left: 900px;
+        top: 380px;
+    }
+
+    .img-Laptop{
+        width: 400px;
+        top: 160px;
+    }
+
+    .Screen{
+        top: -6px;
+    }
+
+    .screen-img{
+        width: 290px
+    }
+
+    .Feature_1{
+        bottom: -8%;
+        left: 42%;
+    }
+    .title{
+        left: 40%;
+    }
+    .ne{
+        bottom: -115%;
+        width: 460px;
+    }
+    .img-waves{
+        width: 992px;
+    }
+    .Title{
+        left: 75px;
+    }
+    .startup-frame-co{
+        font-size: 16px;
+    }
+    .landing-page{
+        width: 768px;
+    }
+    .img-fluid{
+        width: 992px;
+        height: auto;
+    }
+    .middle-fill {
+        /* margin: 45% 57%; */
+        left:370px ;
+        top: 550px;
+    }
+    .text{
+        /* margin: -40px; */
+        top: 165px;
+    }
+    .heading {
+        font-size: 50px;
+    }
+    .start-up{
+        /* margin: 2px auto; */
+        left: 210px;
+    }
+    .header-menu{
+        position: absolute;
+        left: 225px;
+    }
+    .nav-items {
+        flex-direction: row;
+        align-items: center;
+        /* margin: 40px 0px; */
+    }
+
+    .Form_Page{
+        width: 992px;
+        top: 992px;
+    }
+
+    .Background-img{
+        width: 992px;
+    }
+
+    .Form_title{
+        top: 25px;
+        left: 75px;
+    }
+
+    .placeholder{
+        width: 341px;
+        height: 426px;
+        top: 66px;
+    }
+
+    .Signup{
+        left: 56%;
+        top: 14%;
+    }
+
+    .login{
+        top: 14%;
+    }
+
+    .twitter-middle{
+        width: 241px;
+    }
+
+    .twitter-signup{
+        left: 20%;
+    }
+
+    .form-signup{
+        left: 17%;
+        top: 20%;
+    }
+
+    .Testimonial{
+        width: 992px;
+        top: 992px ;
+    }
+
+    .Testimonial-1{
+        width: 400px;
+        left: 195px;
+    }
+    .Testimonial-2{
+        width: 400px;
+        left: 618px;
+    }
+    .Testimonial-3{
+        width: 400px;
+        left: 195px;
+    }
+    .Testimonial-4{
+        width: 400px;
+        left: 618px;
+    }
+
+    .userpic-1{
+        top: 21%;
+    }
+    .userpic-2{
+        top: 21%;
+    }
+    .userpic-3{
+        top: 21%;
+    }
+    .userpic-4{
+        top: 21%;
+    }
+
+    .Call-for-Action{
+        width: 992px;
+        top: 872px;
+    }
+
+    .background-4{
+        width: 992px;
+    }
+
+    .Action-Title{
+        /* width: 150px; */
+        left: 110px;
+    }
+
+    .Title-Para{
+        position: absolute;
+        left: 150px;
+        top: 200px;
+    }
+
+    .youtube-icon{
+        top: 101%;
+    }
+
+    .big-icon{
+        top: 102%;
+    }
+
+    .big-signup{
+        left: 17%;
+    }
+
+    .Showcase{
+        width: 992px;
+        top: 995px;
+    }
+    
+    .works{
+        width: 945px;
+        left: 77px;
+    }
+
+    .showcase-title{
+        left: 60px;
+    }
+
+    .white-outline{
+        left: 485px;
+    }
+
+    .Team{
+        width: 992px;
+        top: 999px;
+    }
+
+    .contact{
+        width: 992px;
+        top: 1004px;
+    }
+
+    .contact-img{
+        width: 992px;
+    }
+
+    .contact-title{
+        left: 45px;
+        top: 0px;
+    }
+
+    .contacts{
+        left: 45px;
+        top: 305px;
+    }
+
+    .placeholder{
+        width: 460px;
+        top: 40px;
+        height: 475px;
+    }
+
+    .your-name{
+        top: 25px;
+    }
+
+    .yourname{
+        top: 55px;
+    }
+
+    .budget{
+        top: 25px;
+    }
+
+    .amount{
+        top: 55px;
+    }
+
+    .field{
+        top: 130px;
+    }
+
+    .email-field{
+        top: 160px;
+    }
+
+    .message{
+        top: 240px;
+    }
+
+    .your-msg{
+        top: 270px;
+    }
+
+    .check{
+        top: 427px;
+    }
+
+    .checkbox-text{
+        top: 427px;
+    }
+
+    .send-icon{
+        top: 408px;
+    }
+
+    .Pricing-Table{
+        width: 992px;
+        top: 1005px;
+    }
+    .price-img{
+        width: 992px;
+    }
+
+    .price-title{
+        left: 175px;
+        top: 30px;
+    }
+
+    .price-para{
+        top: 65px;
+    }
+
+    .price-1{
+        width: 310px;
+        top: 175px;
+        height: 595px;
+        left: 15px;
+    }
+    .price-2{
+        width: 310px;
+        top: 175px;
+        height: 595px;
+        left: 340px;
+    }
+    .price-3{
+        width: 310px;
+        top: 175px;
+        height: 595px;
+        left: 665px;
+    }
+
+    .Ptext-1{
+        top: 25px;
+    }
+
+    .Price-1-Features{
+        top: 150px;
+    }
+
+    .price-icon{
+        top: 520px;
+        left: 38px;
+    }
+
+    .footer{
+        width: 992px;
+        top: 1005px;
+    }
+
+    .Copywrites{
+        width: 820px;
+        left: 80px;
+    }
+
+    .Divider{
+        width: 820px;
+        left: 80px;
+    }
+
+    .Menu{
+        width: 820px;
+        left: 80px;
+    }
+    .privacy{
+        left: 536px;
+    }
+
+    .terms{
+        left: 650px;
+    }
+
+    .menu-copy{
+        left: 64%;
+    }
+    .menu-contacts{
+        left: 45%;
+    }
+    .Brands{
+        left: 38%;
+    }
+    .Our-works{
+        left: 26%;
+    }
+    .Pricing-plan{
+        left: 15%;
+    }
+
+
+}
+
+/* @media only screen and (max-width: 576px) {
+    
+    body{
+        width: 576px;
+
+    }
+    .img-fluid{
+        width: 576px;
+    }
+
+    .header-menu{
+        left: 30px;
+        top: 10px;
+    }
+
+    .text{
+        left: 10px;
+        top: 60px;
+    }
+
+    .start-up{
+        font-size: 20px;
+    }
+
+    .heading{
+        font-size: 40px;
+        width: 405px;
+        left: 70px;
+        top: 25px;
+    }
+
+    .about{
+        font-size: 18px;
+        width: 506px;
+        left: 30px;
+        top: 100px;
+        line-height: 22px;
+    }
+
+    .paginator{
+        left: 225px;
+        top: 245px;
+    }
+
+    .middle-fill{
+        left: 160px;
+        top: 340px;
+    }
+
+    .arrow{
+        width: 545px;
+        left: 15px;
+        top: 145px;
+    }
+
+    .Page-2{
+        width: 576px;
+        top: 345px;
+    }
+
+    .img-waves{
+        width: 576px;
+    }
+
+    .Title{
+        
+        top: 30px;
+    }
+
+    .free-sample{
+        left: 140px;
+        top: -30px;
+    }
+
+    .demo-version{
+        font-size: 25px;
+        top: 4px;
+        left: -200px;
+    }
+
+    .startup-frame-co{
+        width: 500px;
+        top: 65px;
+        left: -40px;
+    }
+
+    .Page-3{
+        width: 576px;
+        top: 445px;
+    }
+
+    .img-Desert{
+        width: 576px;
+    }
+
+    .img-Laptop{
+        width: 200px;
+
+    }
+
+    .screen-img{
+        width: 145px;
+        position: absolute;
+        top: 65px;
+    }
+
+    .Create-Something-new{
+        font-size: 20px;
+        top: 55px;
+    }
+
+    .title{
+        left: 32%;
+        width: 280px;
+    }
+
+    .Feature_1{
+        top: 255px;
+        left: 35%;
+        width: 165px;
+        font-size: 14px;
+    }
+
+    .Feature_2{
+        top: 255px;
+        left: 70%;
+        width: 165px;
+        font-size: 14px;
+    }
+
+    .ne{
+        font-size: 14px;
+        line-height: 15px;
+        width: 300px;
+        top: 120px;
+    }
+
+    .Form_Page{
+        width: 576px;
+        top: 570px;
+    }
+
+    .Background-img{
+        width: 576px;
+    }
+
+    .Form_title{
+        left: 35px;
+        width: 200px;
+        top: 0px;
+    }
+
+    .Digital_problem{
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .new-products{
+        line-height: 18px;
+    }
+
+    .placeholder{
+        width: 290px;
+        left: 260px;
+        top: 20px;
+        height: 275px;
+    }
+
+    .Signup{
+        left: 50%;
+        top: 5%;
+    }
+
+    .login{
+        top: 5%;
+    }
+
+    .selecter{
+        top: 17%;
+        bottom: 82%;
+        left: 45%;
+    }
+
+    .selector{
+        top: 17%;
+        bottom: 82%;
+        left: 68%;
+        right: 5%;
+    }
+
+    .Data{
+        left: 48%;
+        right: 8%;
+        top: 22%;
+        bottom: 65%;
+    }
+
+    .password{
+        left: 48%;
+        right: 8%;
+        top: 38%;
+    }
+
+    .twitter-middle{
+        width: 200px;
+        top: 75%;
+        left: 53%;
+    }
+
+    .twitter-rectangle{
+        top: 20%;
+    }
+
+    .twitter-signup{
+        left: 15%;
+        top: 20%;
+    }
+
+    .divider{
+        left: 49%;
+        width: 43%;;
+        top: 70%;
+    }
+
+    .Sign-up-rectangle{
+        right: -42%;
+        bottom: -48%;
+    }
+
+    .Sign-up-middle{
+        left: 53%;
+        right: 23%;
+    }
+
+    .Testimonial{
+        width: 576px;
+        height: 1300px;
+        top: 570px;
+    }
+
+    .test-container{
+        width: 500px ;
+    }
+
+    .Testimonial-title{
+        left: 50px;
+        top: 20px;
+    }
+
+    .Testimonial-2{
+        left: 195px;
+        top: 459px;
+
+    }
+    .Testimonial-3{
+        left: 195px;
+        top: 722px;
+    }
+    .Testimonial-4{
+        left: 195px;
+        top: 990px;
+    }
+
+    .Call-for-Action{
+        width: 576px;
+        top: 447px;
+    }
+
+    .background-4{
+        width: 576px;
+    }
+
+    .Action-Title{
+        left: -100px;
+        top: 87px;
+    }
+
+    .Title-header{
+        font-size: 40px;
+        line-height: 40px
+    }
+
+    .Title-Para{
+        font-size: 18px;
+        line-height: 22px;
+        left: 184px;
+        top: 125px;
+    }
+
+    .youtube-icon{
+        top: 125%;
+        left: 33%;
+    }
+
+    .red-dot{
+        width: 40px;
+        height: 40px;
+    }
+
+    .fa-play{
+        left: 32%;
+        top: 30%;
+    }
+
+    .big-icon{
+        top: 125%;
+        left: 41%;
+    }
+    .big-rectangle{
+        width: 150px;
+        height: 40px;
+    }
+
+    .big-signup{
+        left: 15%;
+        top: 20%;
+    }
+
+    .Showcase{
+        width: 576px;
+    }
+
+    .showcase-title{
+        top: 0px;
+    }
+
+    .white-outline{
+        left: -180px;
+        top: 115px;
+    }
+
+    .work-1{
+        top: -10%;
+        left: -3%;
+    }
+    .description-1{
+        top: 77%;
+    }
+    .work-2{
+        left: -25px;
+        top: 46%
+    }
+    .description-2{
+        top: 711%;
+    }
+    .work-3{
+        left: -2%;
+        top: 749px;
+    }
+    .work-4{
+        left: -2%;
+        top: 133%;
+    }
+} */
+
+
+
+
+/* @media only screen and (max-width: 400px) {
+    .img-fluid{
+        width: 109%;
+    }
+    .middle-fill {
+        margin: 50px ;
+    }
+    .rectangle {
+        width: 150px;
+        height: 40px;
+    }
+    .signup {
+        font-size: 14px;
+        margin: 5px 20px;
+    }
+    .text{
+        margin: -70px 0px;
+    }
+    .start-up{
+        font-size: 16px;
+    }
+    .about {
+        font-size: 14px;
+    }
+    .heading {
+        font-size: 18px;
+        margin: -30px 0px;
+    } 
+    .nav-items {
+        flex-direction: row;
+        align-items: center;
+        font-size:  8px ;
+    }
+    .Home{
+        font-size: 12px;
+    }
+    .Feature{
+        font-size: 12px;
+    }
+    .Pricing{
+        font-size: 12px;
+    }
+    .Blog{
+        font-size: 12px;
+    }
+    .paginator{
+        margin: 10px 10px;
+    }
+} */
